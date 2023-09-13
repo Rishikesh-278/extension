@@ -1,0 +1,11 @@
+{
+    "name": "AI QR codes",
+    "version": "1.0.0",
+    "description": "Create beautiful AI generated QR codes.",
+    "manifest_version": 3,
+    "author": "Sampurna Chapagain",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Latest Covid Report"
+    }
+}
