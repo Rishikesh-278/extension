@@ -3,9 +3,23 @@
     "version": "1.0.0",
     "description": "Create beautiful AI generated QR codes.",
     "manifest_version": 3,
-    "author": "Sampurna Chapagain",
+    "author": "Rishikesh Bidkar",
     "action": {
         "default_popup": "index.html",
-        "default_title": "Latest Covid Report"
-    }
+        "default_title": "Create AI generated QR codes."
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "activeTab",
+        "contextMenus"
+    ]
 }
